@@ -2,4 +2,44 @@ body {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
+    background-color: azure;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: navy;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: navajowhite;
+}
+
+.navbar-list a:hover {
+    color: azure;
+}
+
+main {
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 200px;
 }
