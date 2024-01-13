@@ -38,7 +38,7 @@ body {
 
 main {
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 
 #welcome-section {
@@ -47,10 +47,73 @@ main {
     align-items: center;
     margin-bottom: 50px;
     text-align: center;
+    gap: 20px;
 }
 
 #welcome-section > p {
     width: 700px;
+}
+
+h1 {
+    color: navy;
+    font-size: 30px;
+}
+
+hr {
+    height: 5px;
+    background-color: navy;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-tile {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-tile a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: navy;
+}
+
+#profile-link {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#profile-link a {
+    text-decoration: none;
+    color: navy;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#profile-link a:hover,
+.project-tile a:hover {
+    color: navajowhite;
+    cursor: pointer;
+}
+
+h2 {
+    color: navy;
+    font-size: 25px;
 }
 
 #footer {
