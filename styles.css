@@ -149,3 +149,14 @@ h2 {
   color: navajowhite;
   text-align: right;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    #welcome-section > p {
+        width: 500px;
+      }
+}
