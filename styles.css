@@ -14,7 +14,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: navy;
+    background-color: rgb(0, 0, 128);
+    z-index: 999;
 }
 
 .navbar-list {
@@ -32,12 +33,24 @@ body {
 
 .navbar-list a:hover {
     color: azure;
+    cursor: pointer;
 }
 
 main {
     position: relative;
-    top: 100px;
-    cursor: pointer;
+    top: 150px;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#welcome-section > p {
+    width: 700px;
 }
 
 #footer {
