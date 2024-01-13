@@ -1,121 +1,145 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    background-color: azure;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  background-color: azure;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background-color: rgb(0, 0, 128);
-    z-index: 999;
+#navbar, {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(0, 0, 128);
+  z-index: 999;
 }
 
 .navbar-list {
-    display: flex;
-    gap: 50px;
-    margin-right: 50px;
-    list-style-type: none;
-    font-size: 20px;
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  list-style-type: none;
+  font-size: 20px;
 }
 
 .navbar-list a {
-    text-decoration: none;
-    color: navajowhite;
+  text-decoration: none;
+  color: navajowhite;
 }
 
 .navbar-list a:hover {
-    color: azure;
-    cursor: pointer;
+  color: azure;
+  cursor: pointer;
 }
 
 main {
-    position: relative;
-    top: 100px;
+  position: relative;
+  top: 100px;
 }
 
 #welcome-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-    text-align: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+  gap: 20px;
 }
 
 #welcome-section > p {
-    width: 700px;
+  width: 700px;
 }
 
 h1 {
-    color: navy;
-    font-size: 30px;
+  color: navy;
+  font-size: 30px;
 }
 
 hr {
-    height: 5px;
-    background-color: navy;
+  height: 5px;
+  background-color: navy;
 }
 
 #projects {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .project-tile {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .project-tile a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: navy;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: navy;
 }
 
 #profile-link {
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 #profile-link a {
-    text-decoration: none;
-    color: navy;
-    font-weight: 800;
-    font-size: 18px;
+  text-decoration: none;
+  color: navy;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+  gap: 50px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+.socials a {
+  text-decoration: none;
+  font-size: 20px;
+  color: navy;
 }
 
 #profile-link a:hover,
-.project-tile a:hover {
-    color: navajowhite;
-    cursor: pointer;
+.project-tile a:hover,
+.socials a:hover {
+  color: navajowhite;
+  cursor: pointer;
 }
 
 h2 {
-    color: navy;
-    font-size: 25px;
+  color: navy;
+  font-size: 25px;
 }
 
 #footer {
-    margin-top: 200px;
+  margin-top: 200px;
+  width: 100%;
+  height: 50px;
+  background-color: navy;
+  display: flex;
+  gap: 10px;
 }
