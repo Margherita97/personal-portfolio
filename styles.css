@@ -157,6 +157,10 @@ h2 {
         gap: 30px;
     }
     #welcome-section > p {
-        width: 500px;
+        width: 400px;
       }
+    #footer {
+      text-align: center;
+    }
 }
+
